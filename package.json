@@ -1,0 +1,43 @@
+{
+  "name": "minuevowork",
+  "version": "1.0.0",
+  "description": "Desarrollo",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairoalexis31/GA7-220501096-AA4-EV03.git"
+  },
+  "keywords": [
+    "DATABASE"
+  ],
+  "author": "JAIRO_QUINTERO",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "/jairoalexis31/GA7-220501096-AA4-EV0",
+  "dependencies": {
+    "minuevowork": "file:",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}

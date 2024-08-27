@@ -1,24 +1,16 @@
+// src/App.js
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import Header from 'src/components/Header';
-import ProductList from './components/ProductList';
-import ProductForm from './components/ProductForm';
-import UserProfile from './components/UserProfile';
-import LoginForm from './components/LoginForm';
-import RegisterForm from './components/RegisterForm';
-import './App.css';
+import Header from './components/Header';
+import './styles/App.css'; // Asegúrate de que la ruta sea correcta
 
-const App = () => {
+function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Header />
-      <Switch>
-        <Route path="/products" component={ProductList} />
-        <Route path="/add-product" component={ProductForm} />
-        <Route path="/edit-product/:id" component={ProductForm} />
-      </Switch>
+      <h1>Esto es una página web</h1>
     </div>
   );
-};
+}
 
 export default App;
+console.log("App component rendered");

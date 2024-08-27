@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import api from '../services/api';
+import api from './components/services/api';
 import './styles/App.css'; // Importamos el archivo de estilos
 
 const ProductForm = ({ match, history }) => {

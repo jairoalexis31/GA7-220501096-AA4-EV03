@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ProductItem from './ProductItem';
+import ProductItem from './components/ProductItem';
 import './styles/App.css'; // Importamos el archivo de estilos
 
 const ProductList = () => {

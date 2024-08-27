@@ -1,14 +1,12 @@
+// src/index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css';
+import './styles/App.css'; // Asegúrate de que la ruta sea correcta
 
-ReactDOM.render(
-  <Router>
-    <Switch>
-      <Route path="/" component={App} />
-    </Switch>
-  </Router>,
-  document.getElementById('root')
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
